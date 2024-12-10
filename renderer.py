@@ -21,6 +21,7 @@ cube_points = [
     [-1, 1, 1],
 ]
 
+angle = 0.5
 
 edges = [
     (0, 1), (1, 2), (2, 3), (3, 0),
@@ -67,7 +68,6 @@ while running:
             projected_points[edge[0]], projected_points[edge[1]], 2
         )
 
-    angle += 0.01  # Increment rotation angle
     pygame.display.flip()
     clock.tick(120)
 
