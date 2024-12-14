@@ -1,0 +1,35 @@
+# variables can be only alphanumeric
+examples of valid variables - 12array, a, mux2, MaxEffort, EFFORT
+examples of invalid variables - array_mux, array_1, @art, *art
+
+# variables are case sensitive
+
+1.  s = sensor_read(sensor-id);
+    - sensor_read reads the value at the output buffer of the sensor
+    - It requires one argument i.e, ID of the sensor
+    - It should be assigned to a variable
+
+2.  assign has different assignments:
+    - value to variable
+    - null to variable
+    - array null instantiation
+    - array value instantiation
+    - array element instantiation
+    - array element value to variable
+    - variable to array element value
+
+3. mat has different matrix operations:
+    - Matrix multiplication *
+        example
+    - Matrix transpose '
+        example
+    - Element wise multiplication .*
+        example
+    - Matrix power ^val
+        example
+    - Matrix power ^-1 is the inverse
+        example
+
+4. actuator_write(actuator-id, value);
+    - It requires two arguments i.e, ID of the actuator, actuator value
+    - No need for variable assignment

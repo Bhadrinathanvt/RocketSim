@@ -1,0 +1,13 @@
+sensor1 = sensor_read(IMU1);
+sensor2 = sensor_read(IMU2);
+assign a = 1;
+assign b = 6;
+assign array1[3][2] = [2, 3 ,1, 1, 1, 0];
+assign array2[2][1] = [1, 0];
+assign array3[3][2];
+assign array[2][2];
+assign arr;
+assign b = arr[3];
+mat array3 = array1 * array2;
+mat array = array2^2;
+r = a ** b;
